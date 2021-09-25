@@ -44,9 +44,9 @@
 		7108E09CB55597AF71F33746 /* Pods-MyCocoapodsLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoapodsLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyCocoapodsLibrary_Tests/Pods-MyCocoapodsLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7F4E132CB67EB9759D8D084A /* Pods-MyCocoapodsLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCocoapodsLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyCocoapodsLibrary_Tests/Pods-MyCocoapodsLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA55D2392D9FBE3F5A6428AB /* Pods_MyCocoapodsLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCocoapodsLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8629EB36348CFF11DFCA255 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D24ECFC86B24AD9E68435569 /* MyCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyCocoapodsLibrary.podspec; path = ../MyCocoapodsLibrary.podspec; sourceTree = "<group>"; };
-		D7E769CACE14B13FD31FAA5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8629EB36348CFF11DFCA255 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D24ECFC86B24AD9E68435569 /* MyCocoapodsLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyCocoapodsLibrary.podspec; path = ../MyCocoapodsLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7E769CACE14B13FD31FAA5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7F4E132CB67EB9759D8D084A /* Pods-MyCocoapodsLibrary_Tests.debug.xcconfig */,
 				7108E09CB55597AF71F33746 /* Pods-MyCocoapodsLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
